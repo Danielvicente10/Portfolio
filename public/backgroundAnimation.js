@@ -1,4 +1,3 @@
-// backgroundAnimation.js
 (function () {
   let width,
     height,
@@ -117,7 +116,7 @@
       ctx.beginPath();
       ctx.moveTo(p.x, p.y);
       ctx.lineTo(p.closest[i].x, p.closest[i].y);
-      ctx.strokeStyle = "rgba(156,217,249," + p.active + ")";
+      ctx.strokeStyle = "rgba(0,191,255," + p.active + ")";
       ctx.stroke();
     }
   }
