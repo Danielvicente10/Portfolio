@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -7,16 +7,44 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/Home ">Início</Link>
+            <NavLink
+              to="/Home"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Início
+            </NavLink>
           </li>
           <li>
-            <Link to="/Projects">Projetos</Link>
+            <NavLink
+              to="/Projects"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Projetos
+            </NavLink>
           </li>
           <li>
-            <Link to="/About">Sobre mim</Link>
+            <NavLink
+              to="/About"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Sobre mim
+            </NavLink>
           </li>
           <li>
-            <Link to="/Contact">Contato</Link>
+            <NavLink
+              to="/Contact"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Contato
+            </NavLink>
           </li>
         </ul>
       </nav>
