@@ -5,7 +5,7 @@ const Hero = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       const script = document.createElement("script");
-      script.src = "../../backgroundAnimation.js";
+      script.src = "./backgroundAnimation.js";
       script.async = true;
       document.body.appendChild(script);
     }, 100);
