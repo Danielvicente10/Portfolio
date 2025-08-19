@@ -80,9 +80,10 @@
   background-image: url("../../assets/danielAnimado.png");
   width: 240px;
   height: 240px;
-  background-size: contain;
-  border-radius: 50%;
+  background-size: cover;
+  border-radius: 15%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media (max-width: 1024px) {

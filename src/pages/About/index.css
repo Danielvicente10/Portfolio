@@ -23,10 +23,14 @@
 
 .container-about-content > div > h1 {
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .container-about-content > div > p {
   color: #fff;
+  text-align: justify;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
 }
 
 .container-about-text {

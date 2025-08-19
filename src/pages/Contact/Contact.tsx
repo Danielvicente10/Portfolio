@@ -3,6 +3,7 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,7 +28,8 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faEnvelope} /> Enviar um e-mail
+              <FontAwesomeIcon icon={faEnvelope} />
+              E-mail
             </a>
             <a
               href="https://www.instagram.com/dvicente01"
@@ -56,6 +58,13 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} /> GitHub
+            </a>
+            <a
+              href="https://wa.me/5519994301132"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
             </a>
           </div>
         </div>
